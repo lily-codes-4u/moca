@@ -1,0 +1,1019 @@
+
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+div.relative {
+  position: relative;
+  top: 00px;
+  right: 0;
+  }
+</style>
+
+<style>
+div.polaroid {
+  width: 240px;
+  box-shadow: 12px 12px 8px grey; 
+  }
+
+div.fixed {
+  position: fixed;
+  top: 00px;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}  
+ </style>
+
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 16px 30px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+
+</head>
+
+<br>
+
+<title>MOCA: Museum of Computer Art</title>
+<meta name="keywords"
+content="computer art, digital art, moca.virtual.museum, artificial intelligence art, ai art, moca, moca museum, art museum, virtual art museum, virtual art, art exhibit, art gallery, fractals, animations, raytraced art, rendered art, 3d art, computer drawn art, web art, video, video art, new media, virtual museum, web museum, donnie, donnie contest">
+<meta name="description" content="digital art museum, works by distinguished computer and digital artists">
+
+<link rel="shortcut icon" href="favicon.ico">
+  
+<style type="text/css">
+ a:link             {text-decoration: none }
+ a:active         {text-decoration: none }
+ a:visited        {text-decoration: none }
+ a:hover         {text-decoration: underline }
+
+ex1 {font-size:0.925em;} /* 14px/16=0.875em */
+</style>
+
+<script language="JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+</head>
+
+<body bgcolor="e8e5dc" text="black" link="#404000" vlink="#404000" alink="#404000" onLoad="MM_preloadImages('but_submit_over.gif','but_mocanet_over.gif','but_catalogs_over.gif','but_mocaccess_over.gif','but_editorial_over.gif','but_collect_over.gif','but_about_over.gif','but_opengallery_over.gif','but_grandmasters_over.gif')">
+
+<a name="topofpage"></a>
+
+<center>
+
+<TABLE><TR><TD>
+
+<center>
+<!-- SiteSearch Google -->
+<form method="get" action="https://www.google.com/custom" target="_top">
+<table align=center  border="0" bgcolor="000000"> 
+
+<tr>
+
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<td nowrap="nowrap" valign="top" align="left" height="24">
+</td>
+<td nowrap="nowrap">
+<input type="hidden" name="domains" value="moca.virtual.museum"></input>
+<label for="sbi" style="display: none">Enter your search terms</label>
+<input type="text" name="q" size="24" maxlength="90" value="" id="sbi"></input>
+<label for="sbb" style="display: none">Submit search form</label>
+<input type="submit" name="sa" value="Site search" id="sbb"></input>
+</td>
+<td>&nbsp;</td>
+<td nowrap="nowrap">
+
+<table>
+<tr>
+<td>
+<input type="hidden" name="sitesearch" value="moca.virtual.museum" id="ss1"></input>
+<label for="ss1" title="Search moca.virtual.museum"></label></td>
+</tr>
+</table>
+
+<input type="hidden" name="client" value="pub-6866835940901662"></input>
+<input type="hidden" name="forid" value="1"></input>
+<input type="hidden" name="ie" value="ISO-8859-1"></input>
+<input type="hidden" name="oe" value="ISO-8859-1"></input>
+<input type="hidden" name="cof" value="GALT:#000000;GL:1;DIV:#000000;VLC:000000;AH:center;BGC:e8e5dc;LBGC:e8e5dc;ALC:000000;LC:000000;T:000000;GFNT:000000;GIMP:000000;LH:50;LW:140;L:http://moca.virtual.museum/sopermocalogo1.jpg;S:http://;FORID:1"></input>
+<input type="hidden" name="hl" value="en"></input>
+
+</form>
+
+<!-- SiteSearch Google -->
+<td>&nbsp;&nbsp;
+
+<td align=right><font size="-1" color="FFFFFF" bgcolor="000000">
+Friday, 7/17/2026
+, &nbsp;12:44:29 AM ET, &nbsp; Prattsville, NY (USA)
+</font size>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</td></tr></table><p>
+<font size=1>Visitors Mon 03/20</font size><br>
+
+<!-- Default Statcounter code for MOCA Statcounter
+https://moca.virtual.museum -->
+<script type="text/javascript">
+var sc_project=12745395; 
+var sc_invisible=0; 
+var sc_security="77e19efa"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12745395/0/77e19efa/0/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+<div class="relative"> 
+
+
+<hr size=1 color=black  width=100%>
+
+<a href="about.htm"<b><font size=2><font color=rgb(85,107,47)>about</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="adon/abase.html"><font size=2><font color=<rgb(130,102,68)>autogallery&nbsp;archive</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="donnie2023/exhibitpages/exhibitindex.htm"><font size=2><font color=rgb(130,102,68)>donnie&nbsp;2023</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="donnie2023/catalog2023.htm"><font size=2><font color=rgb(130,102,68)>donnie&nbsp;2023 catalog</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="autogalleryarchive.htm"><font size=2><font color=<rgb(130,102,68)>autogallery&nbsp;archive</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="autogalleryarchive.htm"><font size=2><font color=<rgb(130,102,68)>autogallery&nbsp;archive</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="donniearchive.htm"<font size=2><font color=rgb(130,102,68>donnie&nbsp;archive</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="autogallerysubmit.html"<font size=2><font color=rgb(85,107,47)>free&nbsp;art&nbsp;gallery</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="grandmasters.htm"><font size=2><font color=rgb(85,107,47)>grandmasters</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="newmoca/photo.html"<font size=2><font color=rgb(85,107,47)>photo-based</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="open/opengallery.htm"<font size=2><font color=rgb(85,107,47)>open&nbsp;gallery</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="editorial/editorial.htm"<font size=2><font color=rgb(85,107,47)>editorial</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="catalogs.htm"<font size=2><font color=rgb(85,107,47)>30 catalogs</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="newmoca/drawn.html"<font size=2><font color=rgb(85,107,47)>drawn/painted</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="newmoca/3d.html"<font size=2><font color=rgb(85,107,47)>3d&nbsp;rendered</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="newmoca/algorithmic.html"<font size=2><font color=rgb(85,107,47)>algorithmic/fractal</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="newmoca/guestgallery.htm"<font size=2><font color=rgb(85,107,47)>guest&nbsp;gallery</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="newmoca/mixedtech.html"<font size=2><font color=rgb(85,107,47)>mixed&nbsp;technique</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="newmoca/surreal.htm"<font size=2><font color=rgb(85,107,47)>surreal</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="newmoca/newmediamain.html"<font size=2><font color=rgb(85,107,47)>video</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="newmoca/projects.htm"<b><font size=2><font color=rgb(85,107,47)>projects</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="imageofthedayindex.htm"<b><font size=2><font color=rgb(85,107,47)>images&nbsp;of&nbsp;the&nbsp;day</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="donate.htm"<b><font size=2><font color=rgb(85,107,47)>donate</a></font color>&nbsp;&nbsp;&nbsp;
+
+<a href="aiexhibits.htm"><font size=2><font color=rgb(130,102,68)>(AI)exhibits/slideshows</font color></a>&nbsp;&nbsp;&nbsp
+
+<a href="https://mocadigitalart.com"><font size=2><font color=rgb(130,102,68)>mocadigitalart.com</font color></a>&nbsp;&nbsp;&nbsp
+
+<hr size=1 color=black  width=100%>
+
+</div>
+
+<center>MOCA.VIRTUAL.MUSEUM<br>
+<img src="mocalogomainblue.jpg" width=280 height=100 border=0>
+
+<p>&nbsp;<br>
+
+<b> WHO WE ARE</b><br>
+
+This site is the primary site of the Museum of Computer Art. It hosts the digital fine art<br>
+of thousands of digital artists and thousands of their images. Founded 30 years<br>
+ago, it has now established a complementary cross-linked site hosting<br>
+the spectacularly new and vibrant art of Artificial Intelligence.<br> 
+Clicking links on this page accesses all art on both sites.<p>
+
+<b>THIS IS WHAT WE DO</b><br>
+
+There's no charge to viewers. No charge to artists. No advertising.  No Facebook or Meta.  No Twitter.  No distractions.<br> 
+Dedicated solely to the online exhibit of digital fine art in its various forms and manifestations.
+
+<p>&nbsp;<br>
+
+<table border=0>
+
+<tr>
+
+<td align=center>
+<a href="autogallerysubmit.html">
+<font size=1>
+<b>free art gallery<br>
+<img src="mlogo4.jpg" width=180 height=120 color=white border=1><br>
+digital and AI art</b></font size=1></a>
+</td>
+
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+<td align=center>
+<a href="https://mocadigitalart.com">
+<font size=1><b>mocadigitalart.com<br>
+<img src="ai%20logo%20black.jpg" width=180 height=120 color=white border=1><br>
+cross-linked AI site</b></font size=1></a</td>
+
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+<td align=center>
+<a href="aiexhibits.htm">
+<font size=1>
+<b>galleries and slideshows<br>
+<img src="mlogo2a.jpg" width=180 height=120 color=white border=1><br>
+artificial intellgence art</b></font size=1></a>
+</td>
+
+</tr>
+
+</table>
+
+<p>&nbsp;<br>
+
+Image of the Day<br>
+Mixed Technique<br>
+<b>Compromised</b><br>
+by JP Paul<br>
+03/20/2023<br>
+Click image to access artist's full exhibit<br>
+<a href="paul/paul01.htm">
+<img src="paul/the%20measuure.jpg" border=1 width=600></a><p>
+
+<p>&nbsp;<p>
+
+<center>
+
+<center><b>Auto Slideshow</b><br>
+Selected images from our archive<br>
+<font face=tahoma color=black size=1>image changes every 6 seconds</font>
+</center>
+
+<table><tr><td>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"><b>1  / 12</b></div>
+  <img src="slide/horyma-MG%205000.jpg" border=2 style="width:540">
+  <div class="text">MG 5000<br>by Horyma</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"><font color=white><b>2  / 12</b></div>
+  <img src="slide/georgedaou-do8.gif"  border=2 style="width:540">  
+<div class="text">Do8<br>by George Daou</font color></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"><font color=white><p>&nbsp;<br><b>3 / 12</b></div>
+  <img src="slide/jaimeaustinpaige-untitledstudyno710.gif" border=2 style="width:540">
+  <div class="text">Untitled Study 710 by Jaime Austin Paige<br>&nbsp;<br></font><br></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"><p><b>4  / 12</b></div>
+  <img src="slide/intheshed-davidacton.jpg" border=2 style="width:540">
+  <div class="text">In the Shed by David Acton</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"><font color=black><b>5  / 12</b></div>
+  <img src="slide/karolynemeth-ancestorsdimen.gif" border=2 style="width:540">
+  <div class="text">Ancestors Dimension<br>by Karolyn Nemeth</font color=black></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"><b>6  / 12</b></div>
+  <img src="slide/shannonharrigan_birdy.gif" border=2 style="width:540">
+  <div class="text">Birdy<br>by Shannon Hourigan</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"><font color=white><b>7  / 12</b></div>
+  <img src="slide/thewarofauthorship-peterciccariello.jpg" border=2 style="width:540">
+  <div class="text">The War of Authorship<br>by Peter Ciccariello</font color></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"><font color=black><b>8  / 12</b></font color></div>
+  <img src="slide/russellstreur-levitation.jpg" border=2 style="width:540">
+  <div class="text"><br>Levitation<br>Russell Streur</font color></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"><b>9 / 12</b></div>
+  <img src="slide/yurikabisher-expanding.gif" border=2 style="width:540">
+  <div class="text">Expanding<br>Yuri Kabisher</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"><font color=black><b>10  / 12</b></div>
+  <img src="hourigan/whisper.jpg" border=2 style="width:540">
+  <div class="text">Whisper<br>by Shannon Hourigan</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"><b>11  / 12</b></div>
+  <img src="slide/vincenzocorrado-walking.gif" border=2 style="width:540">
+  <div class="text">Walking<br>by Vincenzo Corrado</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"><b>12  / 12</b></div>
+  <img src="slide/DSC0029-jalearditti.jpg" border=2 style="width:540"> 
+    <div class="text">DSC0029<br>by Jale Arditti</div>
+</div>
+
+</div>
+
+<div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span>
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+</div>
+
+</center>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides,7000); // Change image every 7 seconds 
+  
+
+}
+</script>
+
+</td></tr></table><p>
+
+</font>
+
+<p>&nbsp;&nbsp;<p>
+
+<table border=0 width=990><tr><td>
+
+<font size=-1 color=black>
+
+<b>DIGITAL VIDEO & AUDIO ART</b><br>
+<a href="../../digivid/brown_valleys.htm">
+<img src="../../digivid/brown_valleys280x250.jpg" width=280 height=250 border=1></a></font>
+
+<p>
+
+<td width=30>
+
+<td valign="top">
+<font size=-1><b>MAIN GALLERIES</b></font><br>
+
+<div style="width:200px;height:250px;border:2px solid black; background-color: fbaf5c; font-size:65%;">
+<p>
+<center>
+
+<b>
+
+CLICK GALLERY<p>
+
+<a href="autogalleryarchive.htm"><font color=darkgreen size-1>Autogallery Archive</a><br>
+<a href="donniearchive.htm"><font color=darkgreen>Donnie Archive</a><br>
+<a href="open/opengallery.htm"><font color=darkgreen>Open Gallery</a><br>
+<a href="newmoca/photo.html"><font color=darkgreen>Photo-based</a><br>
+<a href="newmoca/drawn.html"><font color=darkgreen>Drawn/Painted</a><br>
+<a href="newmoca/3d.html"><font color=darkgreen>3d Rendered</a><br>
+<a href="newmoca/surreal.htm"><font color=darkgreen>Surreal</a><br>
+<a href="newmoca/algorithmic.html"><font color=darkgreen>Algorithmic/Fractal</a><br>
+<a href="newmoca/mixedtech.html"><font color=darkgreen>Mixed Technique</a><br>
+<a href="grandmasters.htm"><font color=darkgreen>Grandmasters</a><br>
+<a href="newmoca/projects.htm"><font color=darkgreen>Projects</a><br>
+<a href="newmoca/newmediamain.html"><font color=darkgreen>New Media/Video</a><br>
+<a href="editorial/editorial.htm"><font color=darkgreen>Reviews, Critiques, Essays</a><br>
+<a href="aiexhibits.htm"><font color=darkgreen>Artificial Intelligence</a>
+</b>
+
+</font>
+</center>
+<p>
+</div>
+
+</td>
+
+<td width=30>
+
+<td valign="top">
+
+<font size=-1><b>SCROLLING FOR ART</b></font>
+<script src="jpscrollhere.js" language="JavaScript"></script>
+
+<td width=30>
+
+<td valign="top">
+
+<font size=-1><b>GRANDMASTER ART</b></font><br>
+
+<div style="width:200px;height:250px;border:2px solid black; background-color: 89C52A; line-height: 70%"><font size=1>
+<p>
+<center>
+
+<b>
+
+CLICK ARTIST NAME<p>
+
+<a href="../../bavari/bavari01.htm"><b>Alessandro Bavari</b></a><br>
+<a href="../../ciccariello/ciccariello01.htm"><b>Peter Ciccariello</b></a><br>
+<a href="../../open/cole/cole.htm"><b>Andrew Cole</b></a><br>
+<a href="../../autogallery2012/autogallery_corrado/index.html"><b>Vincenzo Corrado</b></a><br>
+<a href="../../daempfling/damp01.htm"><b>Bjoern Daempfling</b></a><br>
+<a href="../../demuth/demuth01.htm"><b>Thomas Demuth</b></a><br>
+<a href="../../drake/drake01.htm"><b>Lisle Drake</b></a><br>
+<a href="../../open/dumaine/dumaine.htm"><b>Bernard Dumaine</b></a><br>
+<a href="../../hornung/hornung01.htm"><b>Werner Hornung</b></a><br>
+<a href="../../kaufman_new/kaufman01.htm"><b>Dolores Glover Kaufman</b></a><br>
+<a href="../../kuhlmann1/kuhl01.htm"><b>Karin Kuhlmann</b></a><br>
+<a href="../../mclane/mclane01.htm"><b>Peter Mc Lane</b></a><br>
+<a href="../../parke/parke01.htm"><b>Janet Parke</b></a><br>
+<a href="../../autogallery/autogallery_schmitt/index.html"><b>Helga Schmitt</b></a><br>
+<a href="../../open/spiazzi/spiazzi01.htm"><b>Renata Spiazzi</b><br>
+<a href="../../wilson/wilson01.htm"><b>Jay Wilson</b></a><br>
+<a href="../../yamada/yamada01.htm"><b>Shige Yamada</b></a><p>                                                          
+
+
+</b>
+
+</font>
+</center>
+</td></tr></table>
+
+</div>
+
+<center>
+
+</font>
+
+</font><p>
+
+<img src="blank.jpg"  border="0">
+
+<a href="autogalleryarchive.htm">
+<img src="autogallery_link.gif" width=90 height=30 border=0"></a><img src="blank.jpg"  border="0">
+
+<a href="autogallerysubmit.html">
+<img src="freegallery_link.gif" width=90 height=30 border=0"></a><img src="blank.jpg"  border="0">
+
+<a href="donate.htm">
+<img src="donate_link.gif" width=90 height=30 border=0"></a><img src="blank.jpg"  border="0">
+
+<a href="mocanet/mocalist.htm">
+<img src="mocanet_link.gif" width=90 height=30 border=1"></a><img src="blank.jpg"  border="0">
+
+<a href="imageofthedayindex.htm">
+<img src="imagesoftheday_link.gif" width=90 height=30 border=0"></a><img src="blank.jpg"  border="0">
+
+<p>&nbsp;<br>
+
+<hr size=2 color=black  width=33%>
+
+Order or view online three Blurb books of Don Archer's art
+<p>
+
+<table><tr><td>
+
+<td width=320>
+
+<center><font size=1>
+<b>click to order or preview</b><br>
+book of 66 Artificial Intelligence artworks</font>
+
+<div class="polaroid">
+<a href="https://www.blurb.com/b/11485951-ai-artificial-intelligence-art">
+<img src="../../ai%20blurb%20cover.jpg" width=240 height=180  border=1></a><p>
+</div> 
+</center>
+
+
+<td width=320>
+
+<center><font size=1>
+<b>click to order or preview</b><br>
+book of 60 advanced don archer fractals</font>
+
+<div class="polaroid"> 
+<a href="https://www.blurb.com/books/10628545-don-archer-digital-art">
+<img src="../../cover2a.jpeg" width=240 height=180 border=1></a><p>
+</div> 
+</center>
+
+<td width=320>
+
+<center><font size=1>
+<b>click to order or preview</b><br>
+book of 55 don archer vintage portaits</font>
+
+<div class="polaroid"> 
+<a href="https://www.blurb.com/books/10648571-don-archer-digital-art">
+<img src="../../cover_2.jpeg" width=240  height=180 border=1></a><p>
+</div> 
+</center>
+
+</td></tr></table><p>
+   
+
+<font size="-1" face=tahoma>
+Text and images on this site copyright 1993-2023 Museum of Computer Art.<br>
+All rights to images on this site remain with the respective artists.<br>
+
+Thanks for visiting.<p>
+</font>
+
+<a href="#topofpage"> <b><font size=1>top of page</font></b></a>   
+
+</center>
+
+</center>
+
+
+
+<table align="center" width=800><tr><td>
+<!-- scrolling content -->
+<div id="JPSCROLL_content" style="visibility:hidden; height: 100px; width: 1px; overflow:hidden;">
+
+<center>
+
+<font size=2>DIRECTORS CHOICE<font><br>
+<font size=1>Art from our exhibits & archives<p>
+
+Scroll Updated<br> 
+January 17, 2023<p>
+
+Click image title to view</font><br>&nbsp;<br>
+
+Bogdan Prystrom<br>
+<ex1>
+
+<a href="../../prystrom/prystrom01.htm">No. 007
+</a>
+
+<p>
+
+Tiago Manuel Santos<br>
+<ex1>
+
+<a href="../../open/santos_t/santos_t03.htm">Self Portrait
+
+</a>
+
+<p>
+
+Lutz Baar<br>
+<ex1>
+
+<a href="../../open/baar/baar02.htm">The Mask
+</a>
+
+<p>
+
+Jose Castellano<br>
+<ex1>
+
+<a href="../../open/castellano/castellano08.htm">Ms. Clo in Yale
+</a>
+
+<p>
+
+Thomas Broadfoot<br>
+<ex1>
+
+<a href="../../open/broadfoot/broadfoot04.htm">Cross to Bear
+</a>
+
+<p>
+
+Bruno Marini<br>
+<ex1>
+
+<a href="../../open/marini/marini03.htm">Vue Lointaine
+</a>
+
+<p>
+
+Michael P. Ammel<br>
+<ex1>
+
+<a href="../../open/ammel/ammel09.htm">The Friendly Merger
+</a>
+
+<p>
+
+Sam Bahreini<br>
+<ex1>
+
+<a href="../../guest/bahreini/bahreini01.htm">Adam's Rib
+</a>
+
+<p>
+
+Orna Ben-Shoshan<br>
+<ex1>
+
+<a href="../../benshoshan/benshoshan01.htm">Double or Triple
+</a>
+
+<p>
+
+Joe C. K. Lee<br>
+<ex1>
+
+<a href="../../open/lee/lee01.htm">Yin Yang
+
+<p>
+
+Claude McCoy<br>
+<ex1>
+
+<a href="../../guest/mccoy/mccoy07.htm">Fractal OCF 294
+</a>
+
+<p>
+
+Francisco Mai<br>
+
+<ex1><a href="../../autogallery/autogallery_mai/index_q_mode-view-Image-13-ReturnPage-5.html">Alien Sculpture
+</a>
+
+<p>
+
+Raymond Payette<br>
+<ex1>
+
+<a href="../../autogallery2012/autogallery_payette/index_q_mode-view-Image-10-ReturnPage-4.html">Nefertiti Restored
+</a>
+
+<p>
+
+Benedict Amrhein<br>
+<ex1>
+
+<a href="../../autogallery2012/autogallery_amrhein/index_q_mode-view-Image-3-ReturnPage-1.html">Ecce Mundus
+</a>
+
+<p>
+
+Adam Harvey<br>
+<ex1>
+
+<a href="../../harvey/harvey01.htm">Free Health Insurance
+</a>
+
+<p>
+
+Ariana Bauer<br>
+<ex1>
+
+<a href="../../autogallery/autogallery_bauer/index_q_mode-view-Image-3-ReturnPage-1.html">Japanese Cherry Tree 
+</a>
+
+<p>
+
+Helga Schmitt Pullach<br>
+
+<ex1><a href="../../autogallery/autogallery_schmitt/index_q_mode-view-Image-8-ReturnPage-3.html">Grotesque Warlord
+</a>
+
+<p>
+
+Aleksandar Stojanovic<br>
+<ex1>
+
+<a href="../../autogallery2012/autogallery_stojanovic/index_q_mode-view-Image-3-ReturnPage-1.html">Abstractique03
+</a>
+
+<p>
+
+Mark Rezyka<br>
+<ex1>
+
+<a href="../../autogallery2012/autogallery_rezyka/index_q_mode-view-Image-6-ReturnPage-2.html">Formal
+</a>
+
+<p>
+
+Alexey Loskutov<br>          
+<ex1>
+
+<a href="../../autogallery2012/autogallery_loskutov/index_q_mode-view-Image-7-ReturnPage-3.html">House by Neva Embankment
+</a>
+
+<p>
+
+Jawek Kwakman<br>
+<ex1>
+
+<a href="../../kwakman/kwakman01.htm">Beauty and Skeleton
+</a>
+
+<p>
+
+Frank Castile<br>
+<ex1>
+
+<a href="../../open/castile/castile01.htm">Another Time
+</a>
+
+<p>
+
+Catherine Yakovina<br>
+<ex1>
+
+<a href="../../yakovina/yakovina07.htm">Four Black / White Drawings
+</a>
+
+<p>
+
+Serdar Camlica<br>
+
+<ex1><a href="../../camlica/camlica01.htm">Dali Is Dead
+</a>
+
+<p>
+
+Carol Caputo<br>
+<ex1>
+
+<a href="../../caputo/caputo01.htm">Above Water
+</a>
+
+<p>
+
+Angelo DiCicco<br>
+<ex1>
+
+<a href="../../dicicco/dicicco00.htm">No. 43D
+</a>
+
+<p>
+
+Peter Mc Lane<br>
+<ex1>
+
+<a href="../../mclane/mclane01.htm">Venice
+</a>
+
+<p>
+
+Linka Griswold<br>
+<ex1>
+
+<a href="../../autogallery2011/autogallery_griswold/index_q_mode-view-Image-8-ReturnPage-3.html">Old at 20
+</a>
+
+<p>
+
+Lisle Drake<br>
+<ex1>
+
+<a href="../../drake/drake01.htm">Alchemy
+</a>
+
+<p>
+
+Pavel Melnichuk<br>
+<ex1>
+
+<a href="../../melnichuk/melnichuk01.htm">Childhood Dream
+</a>
+
+<p>
+
+Ruben Lamagni<br>
+<ex1>
+
+<a href="../../lamagni/lamagn00.htm">Digital Illustration
+</a>
+
+<p>
+
+Jesse Lindsay<br>
+<ex1>
+
+<a href="../../open/lindsay/lindsay05.htm">Astral Dissection
+</a>
+
+<p>
+
+Charles Csuri<br>
+<ex1>
+
+<a href="../../csuri/csuri01.htm">Scribbles
+</a>
+
+<p>
+
+John Locking<br>
+<ex1>
+
+<a href="open/locking/locking03.htm">Homage to Gauguin
+</a>
+
+<p>
+
+Ciro Marchetti<br>
+<ex1>
+
+<a href="../../marchetti/marchetti01.htm">Focal Depth
+</a>
+
+<p>
+
+Andrew Cole<br>
+<ex1>
+
+<a href="../../autogallery2012/autogallery_cole/index_q_mode-view-Image-7-ReturnPage-3.html">Lighting the Menorah
+</a>
+
+</div>
+
+<!-- scrolling parameters -->
+<div id="JPSCROLL_parameters" style="visibility:hidden; height: 1px; width: 1px; overflow:hidden;">
+    <div id="JPSCROLL_width">180</div>
+    <div id="JPSCROLL_height">249</div>
+    <div id="JPSCROLL_bgcolor">6dcff6</div>
+    <div id="JPSCROLL_bordercolor">#000000</div>
+    <div id="JPSCROLL_speed">30</div>
+    <div id="JPSCROLL_borderwidth">2</div>
+    <div id="JPSCROLL_borderstyle">solid</div>
+    <div id="JPSCROLL_bordergap">0</div>
+    <div id="JPSCROLL_alignment">left</div>
+    <div id="JPSCROLL_pagepause">0</div>
+    <div id="JPSCROLL_textcolor">#000000</div>
+    <div id="JPSCROLL_fontsize">12</div>
+    <div id="JPSCROLL_fontfamily">arial, sans-serif</div>
+    <div id="JPSCROLL_fontstyle">light</div>
+    <div id="JPSCROLL_fontweight">bold</div>
+</div>
+
+<div style="text-align: center; width:180px; background-color: #FFFFFF;color: #0000FF;font: bold 12px arial"><a href="http://www.jpowered.com"></a></div>
+
+<script src="jpscroll.js" language="JavaScript"></script>
+
+</td></tr></table>
+
+</TD></TR></TABLE>
+
+
+</body>
+
+</html>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
