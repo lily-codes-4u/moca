@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://moca.virtual.museum/sitemap.xml
